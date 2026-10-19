@@ -1,0 +1,34 @@
+{
+  "name": "pi-verification",
+  "version": "1.0.0",
+  "description": "Independent acceptance-criteria verification records and tools for Pi",
+  "license": "MIT",
+  "author": "John Stallings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstallings/pi-verification.git"
+  },
+  "homepage": "https://github.com/jstallings/pi-verification#readme",
+  "bugs": { "url": "https://github.com/jstallings/pi-verification/issues" },
+  "type": "module",
+  "keywords": ["pi-package"],
+  "files": ["src", "README.md", "SPEC.md"],
+  "pi": { "extensions": ["./src/index.ts"] },
+  "engines": { "node": ">=22.19.0" },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "1.3.0",
+    "@types/node": "22.19.19",
+    "typebox": "1.3.27",
+    "typescript": "5.8.3"
+  },
+  "scripts": {
+    "test": "node --import ./scripts/host-resolve.mjs --test tests/*.test.mjs",
+    "typecheck": "node scripts/typecheck.mjs",
+    "smoke": "node --import ./scripts/host-resolve.mjs scripts/smoke.mjs",
+    "check": "npm test && npm run typecheck && npm run smoke"
+  }
+}

@@ -1,0 +1,24 @@
+node_modules/
+
+# Local agent state and coordination
+.context.db
+.context.db-*
+.context.db.*
+.pi-herdsman/
+
+# Secrets; deliberately named examples may be committed
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+.DS_Store
+*.tgz
+npm-debug.log*
+
+# Generated check output and caches
+coverage/
+.nyc_output/
+.cache/
+.npm/
+*.tsbuildinfo
