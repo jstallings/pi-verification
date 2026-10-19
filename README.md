@@ -11,9 +11,8 @@ and CI pin the tested host versions separately.
 
 ## Install And Load
 
-The GitHub commands here apply once
-[the public repository](https://github.com/jstallings/pi-verification) is published.
-With Pi installed, install from GitHub:
+With Pi installed, install from
+[the public GitHub repository](https://github.com/jstallings/pi-verification):
 
 ```sh
 pi install git:github.com/jstallings/pi-verification
@@ -157,8 +156,7 @@ or full verification record. See [SPEC.md](SPEC.md) for the complete v1 contract
 
 ## Development And Checks
 
-Once the GitHub repository is published, bootstrap a contributor checkout with
-Node.js 22.19 or newer:
+Bootstrap a contributor checkout with Node.js 22.19 or newer:
 
 ```sh
 git clone https://github.com/jstallings/pi-verification.git
