@@ -12,7 +12,7 @@
   "bugs": { "url": "https://github.com/jstallings/pi-verification/issues" },
   "type": "module",
   "keywords": ["pi-package"],
-  "files": ["src", "README.md", "SPEC.md"],
+  "files": ["src", "README.md"],
   "pi": { "extensions": ["./src/index.ts"] },
   "engines": { "node": ">=22.19.0" },
   "peerDependencies": {

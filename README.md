@@ -152,7 +152,7 @@ isolation, checkout selection, approval authenticity, and reruns after code or Q
 source changes. There are no roles/auth, locks, orchestration, approval gates,
 run history, attachment storage, source management or automatic freshness checks.
 Return actionable AC-level defects to the coding loop, not the hidden checklist
-or full verification record. See [SPEC.md](SPEC.md) for the complete v1 contract.
+or full verification record.
 
 ## Development And Checks
 
